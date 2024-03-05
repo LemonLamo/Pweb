@@ -1,0 +1,90 @@
+body {
+    margin-top: 100px;
+    margin-left: 70px;
+    background-color: rgb(142, 138, 138);
+    color: darkblue;
+    font-family: Arial, sans-serif;
+    background-image:url(Images/fond.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}   
+  h1 {
+    text-align: center;
+    color: rgb(93, 27, 27);
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  p {
+    font-family: 'Times New Roman', Times, serif, Times, serif;
+    font-size: 13pt;
+    line-height: 1.5;
+    text-align: left;
+  }
+  .email {
+    font-family: Cambria, serif;
+    font-size: 10pt;
+  }
+  strong {
+    font-weight: bold;
+  }
+  hr {
+    border: 0;
+    height: 3px;
+    background-color: rgb(117, 117, 117);
+    width: 98%;
+
+    margin:  auto;
+  }
+
+a:link {
+    color: rgb(138, 147, 246);
+  
+ }
+ a:hover {
+  font-size: 1.1em;
+  color:green;
+ }
+ a:active {
+  font-size: 1.1em;
+  color: darkblue;
+ }
+ a:visited {
+  font-size: 1.1em;
+  color: purple;
+ }
+ em {
+    font-style: italic;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding-left: 30px; /* Augmentation de la marge pour l'image */
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  ul li::marker {
+    content: "";
+    background-image: url('Images/puce.png');
+    width: 20px; /* Largeur de la puce */
+    height: 20px; /* Hauteur de la puce */
+    background-size: contain; /* Ajuste la taille de l'image de façon à ce qu'elle rentre dans les dimensions spécifiées */
+    background-repeat: no-repeat; /* Pas de répétition de l'image */
+    position: absolute;
+    left: 0;
+    top: 50%; /* Ajustement pour centrer verticalement la puce */
+    transform: translateY(-50%); /* Ajustement pour centrer verticalement la puce */
+  }
+  
+
+    /*pseudo elements hadi jaya chghol l ::before*/
+  /*   #s3 li::marker{
+        content: "🟩";
+    } */
