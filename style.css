@@ -12,11 +12,27 @@ body {
 }   
   h1 {
     text-align: center;
-    color: rgb(93, 27, 27);
+    color: rgb(152, 20, 20);
   }
-  section {
+  form {
     margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
+  input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgba(106, 65, 17, 0.847);
+    border-radius: 4px;
+    background-color: #e0c0a79a;
+    color: rgb(77, 23, 139);
+  }
+
   p {
     font-family: 'Times New Roman', Times, serif, Times, serif;
     font-size: 13pt;
@@ -40,7 +56,7 @@ body {
   }
 
 a:link {
-    color: rgb(138, 147, 246);
+    color: rgb(129, 76, 210);
   
  }
  a:hover {
@@ -53,7 +69,7 @@ a:link {
  }
  a:visited {
   font-size: 1.1em;
-  color: purple;
+  color: rgb(133, 15, 133);
  }
  em {
     font-style: italic;
@@ -88,3 +104,15 @@ a:link {
   /*   #s3 li::marker{
         content: "🟩";
     } */
+
+    .div1 {
+      border: 1px solid black;
+      height: auto;
+      width: auto;
+      padding-left:60px ;
+      padding-right: 60px;
+   
+    justify-content: center;
+    
+     
+    }
