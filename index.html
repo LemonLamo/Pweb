@@ -23,17 +23,18 @@
   <h1>Mes debut avec la Programmation Web</h1>
    <section id="s1">
       <h1>Informations Personelles du Candidat</h1>
+     <div class="form-container">
       <form action="" method="post">
-        <input type="text" placeholder="Nom">
-        <input type="text" placeholder="Prénom">
+        <input type="text" placeholder="Nom" required>
+        <input type="text" placeholder="Prénom" required >
         <input type="date" placeholder="Date de Naissance">
         <input type="text" placeholder="Adresse">
         <input type="text" placeholder="Numero de telephone">
         <input type="email" placeholder="Adresse Email" >
         <input type="text" placeholder="Situation familiale">
-        <input type="submit" value="Send here <3">
+        <button type="submit">Submit</button>
       </form>
-
+  </div>
     <hr>
    </section>
 
@@ -41,6 +42,7 @@
 
    
      <!-- Début de la deuxième section -->
+     <!--
     <section id="s2">
         <h1>Cursus de l'étudiant</h1>
         <ol>
@@ -77,6 +79,26 @@
         <hr>
       </section>
       <!-- Fin de la deuxième section -->
+     
+    <section id="s2">
+       <h1>Cursus de l'étudiant</h1>
+    <form action="" method="post">
+      <label for="Primaire">Cycle Primaire</label>
+        <input type="text" id="Primaire" placeholder="Ecole Primaire">
+      
+        <label for="Moyen">Cycle Moyen</label>
+        <input type="text" id="Primaire" placeholder="Ecole Primaire">  
+       
+        <label for="Secondaire">Cycle Secondaire</label>
+        <input type="text" id="Primaire" placeholder="Ecole Primaire">
+        
+        <label for="Universitaire">Cycle Universitaire</label>
+        <input type="text" id="Primaire" placeholder="Ecole Primaire">
+   
+        <button type="submit">Submit</button>
+      </form>
+      
+      </section>
       <!-- Début de la troisième section -->
   <section id="s3">
     <h1>Langages de Programmation maîtrisés</h1>
@@ -95,7 +117,29 @@
     <!-- Début de la quatrième section -->
     <section id="s4">
       <h1 class="CSC">Exercice : Programme en C</h1>
-      <p class="CSC"> // Votre code en langage C ici </p>
+      <p class="CSC"> #include stdio.h <br>
+
+    int factorielle(int n) 
+    {<br>
+          return (n == 0 || n == 1) ? 1 : n * factorielle(n - 1);
+          <br>
+      }  
+      <br>
+
+        int main() 
+         { <br>
+
+            int nombre;
+        <br>
+            printf("Entrez un nombre : "); <br>
+
+            scanf("%d", &nombre);
+       <br>
+
+            printf("La factorielle de %d est : %d\n", nombre, factorielle(nombre)); <br>
+            return 0; <br>
+        }
+        </p>
       <hr>
     </section>
     <!-- Fin de la quatrième section -->
