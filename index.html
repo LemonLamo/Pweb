@@ -172,11 +172,21 @@
       </p>
   
     <!-- Texte en bas de page pour revenir en haut -->
-    <div id="top" onclick="window.scrollTo(0, 0)">HAUT DE PAGE</div>
-  
+   
+    <button class="scroll-to-top-btn" aria-label="Scroll to top"></button>
+
+    <script>
+      document.querySelector('.scroll-to-top-btn').addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    </script>
 
     <section id="s5"></section>
    
+<br>
     <footer>
       <section id="copy-right">
         <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
