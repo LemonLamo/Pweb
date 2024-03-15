@@ -14,6 +14,11 @@ body {
     text-align: center;
     color: rgb(85, 14, 100);
   }
+  h3 {
+    text-align: center;
+    font-family: "Fira Code", monospace;
+    color: #133945;
+  }
   
   label {
     color: rgb(66, 21, 64);
@@ -29,7 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
   }
   
 
@@ -42,6 +47,7 @@ body {
     border-radius: 4px;
     background-color: #ffbfab9a;
     color: rgb(68, 19, 124);
+    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.1);
   }
 
   button {
@@ -109,7 +115,7 @@ a:link {
     padding: 20px;
     border: 2px solid rgb(70, 39, 95);
     border-radius: 8px;
-    width: 340px;
+    width: 240px;
     height: 250px; 
     margin: auto;
     display: flex;
@@ -155,12 +161,12 @@ a:link {
 
     .copy-right-sec{
       padding: 1.8rem;
-        background: #6a4d5def;
-        color: #fff;
+        background: #ffffffcb;
+        color: #201d1d;
         text-align: center;
     }
     .copy-right-sec a{
-      color: #fcd462;
+      color: #379fbf;
         font-weight: 500;
     }
     a{
@@ -219,4 +225,20 @@ a:link {
   .header-right {
     float: none;
   }
+}
+.code {
+  background-color: #171f22f1;
+  color: #00fe6a;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 2px solid rgb(31, 139, 21);
+  border-radius: 8px;
+  width: 500px;
+  height: auto; 
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fira Code", monospace;
+  font-size: 20px;
 }
