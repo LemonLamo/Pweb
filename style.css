@@ -101,37 +101,40 @@ a:link {
     font-style: italic;
   }
 
+ 
   .programming-languages {
-    background-color: #ffffff6d;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e5c3b4dc;
+    color: #322222;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    border: 2px solid rgb(70, 39, 95);
     border-radius: 8px;
-    margin-top: 20px;
+    width: 340px;
+    height: 250px; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+
   }
 
   ul {
     list-style: none;
     padding: 0;
   }
-  
-  ul li {
-    padding-left: 30px; /* Augmentation de la marge pour l'image */
+
+  li {
     margin-bottom: 10px;
-    position: relative;
+  }
+
+  li::before {
+    content: url('Images/liste-de-controle.png'); /* Replace with the path to your custom bullet image */
+    margin-right: 10px;
+   
   }
   
-  ul li::marker {
-    content: "";
-    background-image: url('Images/puce.png');
-    width: 20px; /* Largeur de la puce */
-    height: 20px; /* Hauteur de la puce */
-    background-size: contain; /* Ajuste la taille de l'image de façon à ce qu'elle rentre dans les dimensions spécifiées */
-    background-repeat: no-repeat; /* Pas de répétition de l'image */
-    position: absolute;
-    left: 0;
-    top: 50%; /* Ajustement pour centrer verticalement la puce */
-    transform: translateY(-50%); /* Ajustement pour centrer verticalement la puce */
-  }
   
 
     /*pseudo elements hadi jaya chghol l ::before*/
