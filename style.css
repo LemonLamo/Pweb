@@ -178,6 +178,7 @@ a:link {
   overflow: hidden;
   background-color: #f1f1f1e1;
   padding: 20px 10px;
+  
 }
 
 /* Style the header links */
@@ -261,5 +262,30 @@ a:link {
 }
 
 .scroll-to-top-btn:hover {
-  background-color: rgba(2, 255, 234, 0.443);
+  background-color: rgba(248, 87, 59, 0.443);
 }
+
+ .equ-container {
+  background-color: #292e34f1;
+  color: #f1e4e4;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  width: 350px;
+  height: auto; 
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fira Code", monospace;
+  font-size: 40px;
+ }
+
+/*#equation {
+    color: #111a4b;
+     text-align: center;
+     font-size: 40px;
+     font-family: "Noto Sans Math", sans-serif;
+  font-weight: bold;
+} */

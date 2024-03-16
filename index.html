@@ -9,11 +9,20 @@
     <link rel="icon" href="Images/fond.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
-  </head>
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Math&display=swap" rel="stylesheet">
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
 <body>
   <div class="header">
     <a href="#default" class="logo">Lamia Koucem</a>
@@ -164,13 +173,22 @@
     <!-- Fin de la quatrième section -->
   
     <!-- Paragraphe contenant une formule mathématique -->
-      <h3>Le code d’une page web doit être mis entre les deux balises &lt;HTML&gt; et &lt;/HTML&gt; et il peut contenir du texte ou des formules mathématiques telle que :</h2>
-    <p>
+      <h3>Le code d’une page web doit être mis entre les deux balises <br>
+        &lt;HTML&gt; et &lt;/HTML&gt; <br>
+        et il peut contenir du texte ou des formules mathématiques telle que :</h2>
+   <!-- <p>
        : πi =(X1 + Y2)
       k+1
       / λi
-      </p>
-  
+      </p> -->
+  <div class="equ-container">
+    <div id="equation"></div>
+  </div>
+    
+
+  <script>
+    document.getElementById('equation').innerHTML = '\\( \\pi_i = \\alpha \\frac{{X_1 + Y_2}}{{\\lambda_i^{k+1}}} \\)';
+  </script>
     <!-- Texte en bas de page pour revenir en haut -->
    
     <button class="scroll-to-top-btn" aria-label="Scroll to top"></button>
