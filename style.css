@@ -157,10 +157,10 @@ a:link {
     justify-content: center;
     
     }
-
+  
     .copy-right-sec{
       padding: 1.8rem;
-        background: #ffffffcb;
+
         color: #201d1d;
         text-align: center;
       
@@ -340,3 +340,24 @@ a:link {
      font-family: "Noto Sans Math", sans-serif;
   font-weight: bold;
 } */
+
+h2 {
+  color: #333;
+}
+
+.vacances-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vacances-list li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.vacances-list li img {
+  width: 50px; 
+  margin-right: 10px;
+  border-radius: 5px;
+}

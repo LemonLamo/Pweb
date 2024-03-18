@@ -28,14 +28,18 @@
 
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <a href="#s1">Section 1</a>
+    <a href="#s2">Section 2</a>
+    <a href="#s3">Section 3</a>
+    <a href="#s4">Section 4</a>
+    <a href="#s5">Section 5</a>
+    <a href="#s6">Section 6</a>
   </div>
   
 
-  <span onclick="openNav()">open</span>
+  <span style="font-size: 40px;cursor:pointer ;color: rgb(64, 36, 92); margin-left: 20px;
+  margin-bottom: auto; " onclick="openNav()">&#9776; </span>
+</div>
   
   
   <div id="main">
@@ -159,7 +163,7 @@
   <!-- Fin de la troisième section -->
 
     <!-- Début de la quatrième section -->
-    <section class="s4">
+    <section id="s4">
       <h1 class="C">Exercice : Programme en C</h1>
       <p class="code"> #include stdio.h <br>
 
@@ -188,24 +192,26 @@
       <hr>
     </section>
     <!-- Fin de la quatrième section -->
+  <section id="s5">
+        <!-- Paragraphe contenant une formule mathématique -->
+        <h3>Le code d’une page web doit être mis entre les deux balises <br>
+          &lt;HTML&gt; et &lt;/HTML&gt; <br>
+          et il peut contenir du texte ou des formules mathématiques telle que :</h2>
+     <!-- <p>
+         : πi =(X1 + Y2)
+        k+1
+        / λi
+        </p> -->
+    <div class="equ-container">
+      <div id="equation"></div>
+    </div>
+      
   
-    <!-- Paragraphe contenant une formule mathématique -->
-      <h3>Le code d’une page web doit être mis entre les deux balises <br>
-        &lt;HTML&gt; et &lt;/HTML&gt; <br>
-        et il peut contenir du texte ou des formules mathématiques telle que :</h2>
-   <!-- <p>
-       : πi =(X1 + Y2)
-      k+1
-      / λi
-      </p> -->
-  <div class="equ-container">
-    <div id="equation"></div>
-  </div>
-    
+    <script>
+      document.getElementById('equation').innerHTML = '\\( \\pi_i = \\alpha \\frac{{X_1 + Y_2}}{{\\lambda_i^{k+1}}} \\)';
+    </script>
+  </section>
 
-  <script>
-    document.getElementById('equation').innerHTML = '\\( \\pi_i = \\alpha \\frac{{X_1 + Y_2}}{{\\lambda_i^{k+1}}} \\)';
-  </script>
     <!-- Texte en bas de page pour revenir en haut -->
    
     <button class="scroll-to-top-btn" aria-label="Scroll to top"></button>
@@ -231,7 +237,27 @@ function closeNav() {
 }
     </script>
 
-    <section id="s5"></section>
+<section id="s6">
+  <h2>Vacances en Images</h2>
+  <ul class="vacances-list">
+    <li>
+      <img src="Images/canada (1).png" alt="Canada">
+      <span>Canada</span>
+    </li>
+    <li>
+      <img src="Images/italie.png" alt="Italie">
+      <span>Italie</span>
+    </li>
+    <li>
+      <img src="Images/japon.png" alt="Japon">
+      <span>Japon</span>
+    </li>
+    <li>
+      <img src="Images/suisse.png" alt="Suisse">
+      <span>Suisse</span>
+    </li>
+  </ul>
+</section>
    
 <br>
     <footer>
