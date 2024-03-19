@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    color: rgb(85, 14, 100);
+    font-weight: bold;
+  }
+  body {
+  
+    background-color: rgb(142, 138, 138);
+    color: darkblue;
+    font-family: Arial, sans-serif;
+    background-image:url(Images/pawel-czerwinski-2PN18U8CKi0-unsplash.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+} 
+
+.slide-content {
+    margin: 0 40px;
+}
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 3px;
+
+}
+.card-image .card-img {
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+   border: 4px solid rgb(157, 4, 75);
+
+}
+
+.card {
+    border-radius: 25px;
+    background-color: bisque;
+    width: 320px;
+}
+
+.name {
+    
+}
+
+
