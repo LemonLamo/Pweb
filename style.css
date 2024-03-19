@@ -115,7 +115,7 @@ a:link {
     border: 2px solid rgb(70, 39, 95);
     border-radius: 8px;
     width: 240px;
-    height: 250px; 
+    height: 260px; 
     margin: auto;
     display: flex;
     justify-content: center;
@@ -132,10 +132,11 @@ a:link {
 
   li {
     margin-bottom: 10px;
+    
   }
 
   li::before {
-    content: url('Images/liste-de-controle.png'); /* Replace with the path to your custom bullet image */
+    content: url('Images/points.png'); /* Replace with the path to your custom bullet image */
     margin-right: 10px;
    
   }
@@ -158,9 +159,10 @@ a:link {
     
     }
   
+
     .copy-right-sec{
       padding: 1.8rem;
-
+ 
         color: #201d1d;
         text-align: center;
       
@@ -361,3 +363,24 @@ h2 {
   margin-right: 10px;
   border-radius: 5px;
 }
+
+#s6 {
+ 
+    background-color: #e5c3b4dc;
+    color: #322222;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 2px solid rgb(70, 39, 95);
+    border-radius: 8px;
+    width: 240px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+
+  }
+
+
