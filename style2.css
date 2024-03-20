@@ -31,13 +31,21 @@ h1 {
     font-family: "Poppins", sans-serif;
 }
 
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+ 
+}
+
 .image-content,
 .card-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 14px;
+    padding: 20px;
 }
+
 
 .card-image {
     position: relative;
@@ -45,6 +53,7 @@ h1 {
     width: 150px;
     border-radius: 50%;
     padding: 3px;
+    background: bisque;
 
 }
 .card-image .card-img {
@@ -53,7 +62,6 @@ h1 {
   object-fit: cover;
   border-radius: 50%;
    border: 4px solid rgb(157, 4, 75);
-
 }
 
 .card {
@@ -63,7 +71,59 @@ h1 {
 }
 
 .name {
-    
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(48, 48, 48);
+}
+.description {
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+    text-align: center;
 }
 
+.button {
+    border: none;
+    font-size: 16px;
+    color: blanchedalmond;
+    padding: 8px 16px ;
+    background-color: rgb(76, 76, 222);
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover {
+    background: rgb(5, 5, 111);
+}
 
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(249, 127, 121);
+    border-radius: 25px 25px 0px 25px;
+}
+
+.overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(249, 127, 121);
+}
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: bisque;
+}
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    background-color: rgb(51, 20, 20);
+    padding: 40px 0;
+    
+}
