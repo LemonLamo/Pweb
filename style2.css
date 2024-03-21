@@ -20,6 +20,7 @@ h1 {
 
 } 
 
+
 .slide-content {
     margin: 0 40px;
 }
@@ -123,7 +124,7 @@ h1 {
 .slide-container {
     max-width: 1120px;
     width: 100%;
-    background-color: rgb(51, 20, 20);
+    background-color: rgb(144, 144, 144);
     padding: 40px 0;
     
 }
