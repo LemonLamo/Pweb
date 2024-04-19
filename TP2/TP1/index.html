@@ -145,25 +145,27 @@
       </tr>
       <tr>
           <td class="inner-frame">
-              <!-- Contenu de la cinquième section -->
-              <section id="s5">
-                <!-- Paragraphe contenant une formule mathématique -->
-                <h3>Le code d’une page web doit être mis entre les deux balises <br>
-                  &lt;HTML&gt; et &lt;/HTML&gt; <br>
-                  et il peut contenir du texte ou des formules mathématiques telle que :</h2>
-             <!-- <p>
-                 : πi =(X1 + Y2)
-                k+1
-                / λi
-                </p> -->
+            
             <div class="equ-container">
-              <div id="equation"></div>
+              <div id="equation">
+  <!-- Contenu de la cinquième section -->
+  <section id="s5">
+    <!-- Paragraphe contenant une formule mathématique -->
+    <h3>Le code d’une page web doit être mis entre les deux balises <br>
+      &lt;HTML&gt; et &lt;/HTML&gt; <br>
+      et il peut contenir du texte ou des formules mathématiques telle que :</h3>
+      <script>
+      document.getElementById('equation').innerHTML = '\\( \\pi_i = \\alpha \\frac{{X_1 + Y_2}}{{\\lambda_i^{k+1}}} \\)';
+    </script>
+ <!-- <p>
+     : πi =(X1 + Y2)
+    k+1
+    / λi
+    </p> -->
+
+              </div>
             </div>
               
-          
-            <script>
-              document.getElementById('equation').innerHTML = '\\( \\pi_i = \\alpha \\frac{{X_1 + Y_2}}{{\\lambda_i^{k+1}}} \\)';
-            </script>
           </section>
           </td>
       </tr>
@@ -250,6 +252,7 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
+
     </script>
     <br>
 <hr>
